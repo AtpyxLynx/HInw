@@ -1,0 +1,64 @@
+.amicut{
+    color: rgb(165, 95, 128);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    font-family:cursive;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+.catcat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+
+}
+
+.sure{
+    color: rgb(165, 95, 128);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    font-family:cursive;
+
+}
+
+.btn{
+    font-size: 30px;
+    display: flex;
+    color: rgb(232, 197, 222);
+    background-color:rgb(203, 117, 171)
+   
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+

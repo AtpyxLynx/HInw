@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>cuteperson</title>
+</head>
+<body>
+    <div class="amicut">ขอค่าขนมหน่อยค่ะ</div>
+    <div class="catcat"<center><img src="https://i.pinimg.com/originals/df/85/ad/df85adf8adcc4602299d2be8f3a105f5.gif" width="300" heigh></center></div>
+    <div class = "buttons">
+        <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+        <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+        <script>
+            function nextPage() {
+                window.location.href = "nextpage.html";
+            }
+            
+            function moveButton() {
+                var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                document.getElementById('noButton').style.left = `${x}px`;
+                document.getElementById('noButton').style.top = `${y}px`;
+            }
+        </script> 
+    </div>
+    
+
+</body>
+</html>
